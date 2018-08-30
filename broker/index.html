@@ -15,6 +15,18 @@
   <link rel="stylesheet" href="/node_modules/vivliostyle/resources/vivliostyle-viewport-screen.css" media="screen">
 
   <link rel="stylesheet" href="style.css">
+  <style>
+    [data-vivliostyle-page-container] {
+      display: block !important;
+    }
+    [data-vivliostyle-viewer-viewport] [data-vivliostyle-spread-container] {
+      flex-direction: column;
+      overflow: scroll;
+    }
+    #ui {
+      pointer-events: none;
+    }
+  </style>
 
   <!-- Empty tag for injecting page size style -->
   <style id="vivliostyle-page-rules"></style>
